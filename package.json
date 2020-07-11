@@ -5,10 +5,13 @@
     "scripts": {
         "serve": "vue-cli-service serve",
         "build": "vue-cli-service build",
-        "lint": "vue-cli-service lint"
+        "lint": "vue-cli-service lint",
+        "install": "npm run build",
+        "start": "node server.js"
     },
     "dependencies": {
         "core-js": "^3.6.5",
+        "express": "*",
         "vue": "^2.6.11",
         "vue-router": "^3.2.0",
         "vue-webrtc": "^1.2.2",
